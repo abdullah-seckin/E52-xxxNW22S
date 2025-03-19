@@ -69,7 +69,7 @@ This library provides an easy-to-use Python interface for the E52-xxxNW22S  LoRa
 For support, send an email to mail@abdullahseckin.com.
 
   
-## Rozetler
+## Badges
 
 [![GPLv3 License](https://img.shields.io/badge/Platforms-Linux_macOS_Windows-white)](https://opensource.org/licenses/)
 
