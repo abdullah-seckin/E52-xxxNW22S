@@ -11,6 +11,11 @@ This library provides an easy-to-use Python interface for the E52-xxxNW22S  LoRa
     lora = LoRaModule(port="/dev/cu.usbserial-2120", baudrate=115200,   timeout=1, retries=3, log_enabled=True)
 
 ```
+* Keep the header closed to avoid confusion during parsing.:
+```python
+    lora.set_head(0)
+
+```
 * Get Module Info:
 ```python
     # Query module info (this returns the key parameters.)
